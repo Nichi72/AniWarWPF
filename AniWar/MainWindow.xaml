@@ -1,0 +1,136 @@
+﻿<Window x:Class="AniWar.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AniWar"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="750" Width="1300">
+    <Grid x:Name="grid1">
+        
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="250,100,0,0" VerticalAlignment="Top" Width="54"/>
+        <Image x:Name="image_test" HorizontalAlignment="Left" Height="83" Margin="621,556,0,0" VerticalAlignment="Top" Width="89"/>
+        <!-- << 이 주석들은 버튼이 어떤 형태를 띄는지 보기위해 만들어졌습니다.
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="259,100,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="318,100,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="377,100,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="436,100,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="200,100,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="259,100,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="318,100,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="377,100,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="436,100,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="495,100,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="554,100,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="613,100,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="672,100,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="731,100,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="790,100,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="849,100,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="908,100,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="967,100,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="1026,100,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="200,153,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="259,153,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="318,153,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="377,153,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="436,153,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="200,153,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="259,153,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="318,153,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="377,153,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="436,153,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="495,153,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="554,153,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="613,153,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="672,153,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="731,153,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="790,153,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="849,153,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="908,153,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="967,153,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="1026,153,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="200,206,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="259,206,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="318,206,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="377,206,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="436,206,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="200,206,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="259,206,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="318,206,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="377,206,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="436,206,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="495,206,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="554,206,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="613,206,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="672,206,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="731,206,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="790,206,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="849,206,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="908,206,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="967,206,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="1026,206,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="200,259,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="259,259,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="318,259,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="377,259,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="436,259,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="200,259,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="259,259,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="318,259,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="377,259,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="436,259,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="495,259,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="554,259,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="613,259,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="672,259,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="731,259,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="790,259,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="849,259,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="908,259,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="967,259,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="1026,259,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="200,312,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="259,312,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="318,312,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="377,312,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="436,312,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="200,312,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="259,312,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="318,312,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="377,312,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="436,312,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="495,312,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="554,312,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="613,312,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="672,312,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="731,312,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="790,312,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="849,312,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="908,312,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="967,312,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="1026,312,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="200,365,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="259,365,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="318,365,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="377,365,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="436,365,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="200,365,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="259,365,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="318,365,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="377,365,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="436,365,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="495,365,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="554,365,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="613,365,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="672,365,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="731,365,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="790,365,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="849,365,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="908,365,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="967,365,0,0" VerticalAlignment="Top" Width="54"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="48" Margin="1026,365,0,0" VerticalAlignment="Top" Width="54"/>
+        -->
+
+    </Grid>
+</Window>
